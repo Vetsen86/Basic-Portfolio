@@ -1,7 +1,7 @@
 /* These are the navbar styles */
 
 .topnav {
-    background-color: white;
+    background-color: #ffffff;
     width: 960px;
     height: 100px;
     display: block;
@@ -51,6 +51,12 @@ li {
     height: auto;
 }
 
+.about::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .about h1 {
     color: #4aaaa5;
     border-bottom: 1px solid #777777;
@@ -60,7 +66,14 @@ li {
 
 img {
     float: left;
-    height: 200px;
+    height: 300px;
     width: 200px;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+/* These are the footer styles */
+
+.footer {
+    text-align: center;
+    margin: 0;
 }
