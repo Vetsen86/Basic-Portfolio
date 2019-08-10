@@ -1,3 +1,5 @@
+/* These are the navbar styles */
+
 .topnav {
     background-color: white;
     width: 960px;
@@ -20,6 +22,7 @@
     height: 100%;
     line-height: 100px;
     padding: 0 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 ul {
@@ -33,4 +36,31 @@ li {
     float: right;
     padding: 15px;
     margin-top: 20px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*These are the about me section styles */
+
+.about {
+    width: 960px;
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #777777;
+    background-color: white;
+    height: auto;
+}
+
+.about h1 {
+    color: #4aaaa5;
+    border-bottom: 1px solid #777777;
+    margin: 20px 25px;
+    padding-bottom: 20px;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
 }
