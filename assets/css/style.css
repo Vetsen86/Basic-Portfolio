@@ -8,11 +8,13 @@ body {
 h1 {
     font-size: 40px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 /* These are the navbar styles */
