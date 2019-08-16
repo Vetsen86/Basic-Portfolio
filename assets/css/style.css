@@ -161,6 +161,12 @@ textarea {
     padding: 20px 0;
 }
 
+.portfolio div img {
+    height: 300px;
+    width: 300px;
+    margin: 0;
+}
+
 .portfolio::after {
     content: "";
     display: block;
